@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<JUCERPROJECT id="fn1Rg8" name="PaulXStretch" displaySplashScreen="0" reportAppUsage="0"
+<JUCERPROJECT id="fn1Rg8" name="PaulXStretch" displaySplashScreen="1" reportAppUsage="0"
               splashScreenColour="Dark" projectType="audioplug" version="1.0.0"
               bundleIdentifier="com.xenakios.paulxstretch" includeBinaryInAppConfig="1"
               cppLanguageStandard="latest" companyCopyright="" buildVST="1"
@@ -60,7 +60,7 @@
                        macOSDeploymentTarget="10.9"/>
         <CONFIGURATION name="Release" enablePluginBinaryCopyStep="1" isDebug="0" optimisation="3"
                        linkTimeOptimisation="0" targetName="PaulXStretch" headerPath="Source/PS_Source&#10;Source/WDL&#10;/Users/teemu/codeprojects/JUCE/modules/vst2.x&#10;"
-                       osxCompatibility="10.9 SDK" osxArchitecture="64BitIntel" cppLibType="libc++"
+                       osxCompatibility="10.9 SDK" osxArchitecture="Native" cppLibType="libc++"
                        libraryPath="/usr/local/Cellar/fftw/3.3.8/lib" defines="JUCE_NO_DEPRECATION_WARNINGS"
                        auBinaryLocation="$(HOME)/Library/Audio/Plug-Ins/Components"
                        macOSDeploymentTarget="10.9"/>
